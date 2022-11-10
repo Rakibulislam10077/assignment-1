@@ -1,0 +1,297 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.donate-1 {
+    background-image: url(images/Frame\ 58.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    width: 100%;
+    height: 500px;
+}
+
+.donate-1-text {
+    padding-top: 160px;
+    width: 600px;
+    margin: 0 auto;
+}
+
+.donate-1-text h1 {
+    font-size: 50px;
+    color: #F63456;
+    padding-bottom: 20px;
+}
+
+.donate-1-text p {
+    color: #3d2c2f;
+    font-size: 14px;
+    padding: 0 0 20px 0;
+}
+
+.donate-1-text .donate-btn {
+    background-image: linear-gradient(#f63456, #ffa555);
+    padding: 10px 15px;
+    font-weight: 700;
+    border-radius: 5px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.donate-2 {
+    width: 100%;
+}
+
+.donate-2-text {
+    text-align: center;
+    margin: 100px auto;
+    width: 600px;
+}
+
+.donate-2-text h1 {
+    font-size: 30px;
+    padding-bottom: 10px;
+}
+
+.donate-2-text p {
+    font-size: 15px;
+    padding: 10px 0 15px 0;
+    color: #808080;
+}
+
+.all-money {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h3 {
+    width: 100px;
+    padding: 28px 2px;
+    background: #FAFAFA;
+    margin: 10px;
+    border-radius: 5px;
+    border: 2px solid transparent;
+    color: #808080;
+}
+
+h3:hover {
+    background: #FFEEEE;
+    color: #F63456;
+    border: 2px solid #F63456;
+}
+
+.donate-2-text hr {
+    border: none;
+    border-bottom: .5px solid #c0bdbd;
+    margin: 0 0 20px 0;
+}
+
+.donate-2-text .donate-btn {
+    background-image: linear-gradient(#f63456, #ffa555);
+    padding: 10px 15px;
+    font-weight: 700;
+    border-radius: 5px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.donate-3 {
+    width: 100%;
+}
+
+.donate-3-text {
+    text-align: center;
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.donate-3-text h1 {
+    font-size: 30px;
+    padding-bottom: 10px;
+}
+
+.donate-3-text p {
+    font-size: 15px;
+    padding: 10px 0 15px 0;
+    color: #808080;
+}
+
+.donate-plan {
+    display: flex;
+}
+
+.food {
+    background: #EDF5F6;
+    padding: 20px;
+    margin: 10px;
+}
+
+.food,
+.shelter,
+education {
+    text-align: left;
+}
+
+.food i {
+    font-size: 40px;
+    padding: 15px 0 10px 0;
+}
+
+.food h4 {
+    font-size: 20px;
+    padding: 10px 0 8px 0;
+}
+
+.shelter {
+    background: #FFEEEE;
+    padding: 20px;
+    margin: 10px;
+}
+
+.shelter i {
+    font-size: 40px;
+    padding: 15px 0 10px 0;
+}
+
+.shelter h4 {
+    font-size: 20px;
+    padding: 10px 0 8px 0;
+}
+
+.education {
+    background: #FFF4D6;
+    padding: 20px;
+    margin: 10px;
+}
+
+.education i {
+    font-size: 40px;
+    padding: 15px 0 10px 0;
+}
+
+.education h4 {
+    font-size: 20px;
+    padding: 10px 0 8px 0;
+}
+
+.donate-4 {
+    width: 100%;
+    margin: 100px 0;
+}
+
+.contribute {
+    display: flex;
+    align-items: center;
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.contribute-text {
+    width: 50%;
+}
+
+.contribute-text h1 {
+    font-size: 38px;
+    margin: 0 0 15px 0;
+}
+
+.contribute-text P {
+    color: #808080;
+    font-size: 15px;
+    margin-bottom: 30px;
+}
+
+.contribute-text .contribute-btn {
+    background-image: linear-gradient(#f63456, #ffa555);
+    padding: 10px 15px;
+    font-weight: 700;
+    border-radius: 5px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.contribute-img {
+    width: 50%;
+}
+
+.contribute-img img {
+    width: 90%;
+}
+
+
+.donate-5 {
+    text-align: center;
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+.update-text h1 {
+    font-size: 40px;
+    padding: 20px 0;
+}
+
+.update-text P {
+    color: #808080;
+    font-size: 15px;
+    margin-bottom: 30px;
+}
+
+.email-btn {
+    background: #FFF4D6;
+    width: 600px;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+
+.email-btn input {
+    width: 240px;
+    height: 33px;
+    border: none;
+    outline: none;
+    background: #D9D9D9;
+    padding: 0 0 0 5px;
+    color: #333;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+
+}
+
+.email-btn button {
+    height: 33px;
+    width: 100px;
+    background: #F63456;
+    border: none;
+    color: #fff;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
+
+footer {
+    width: 100%;
+    height: 80px;
+    background: #0B0D17;
+    padding: 50px 0 30px 0;
+    text-align: center;
+}
+
+footer h1 {
+    color: #F63456;
+    font-family: 'Lucida Sans';
+    margin-bottom: 30px;
+}
+
+footer p {
+    color: #808080;
+    text-align: center;
+}
